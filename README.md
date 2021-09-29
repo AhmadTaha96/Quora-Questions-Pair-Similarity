@@ -83,3 +83,28 @@ is_duplicate: 0
 The second example here explain that even one word can change the meaning of the question referring that some words are very important.
 
 
+### Basic Features
+
+1. question1_freq = Frequency of question1
+
+2. question2_freq = Frequency of question2
+
+3. quesiton1_len = Length of question1
+
+4. quesiton2_len = Length of question2
+
+5. question1_n_words = Number of words in question1
+
+6. question2_n_words = Number of words in question2
+
+7. len_diff = absoulte value of question1 length - question2 length
+
+8. words_diff = absoulte value of question1 number of words - question2 number of words.
+
+8. words_common = Number of common unique words in Question 1 and Question 2
+
+9. words_share = word_common / (len(quesiton1) + len(question2))
+
+10. frequency_sum = frequency of quesiton1 + frequency of quesiton2
+
+10. frequency_diff = absolute value of frequency of quesiton1 - frequency of quesiton2
