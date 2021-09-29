@@ -107,4 +107,10 @@ The second example here explain that even one word can change the meaning of the
 
 10. frequency_sum = frequency of quesiton1 + frequency of quesiton2
 
-10. frequency_diff = absolute value of frequency of quesiton1 - frequency of quesiton2
+11. frequency_diff = absolute value of frequency of quesiton1 - frequency of quesiton2
+
+12. words_share_square = square root of words_share feature
+
+13. words_share_log = log of words_share feature
+
+14.  words_common_square = square root of words_common feature
