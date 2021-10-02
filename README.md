@@ -114,3 +114,41 @@ The second example here explain that even one word can change the meaning of the
 13. words_share_log = log of words_share feature
 
 14.  words_common_square = square root of words_common feature
+
+### Advanced Features
+
+We shall design the following **Features** based on text data of questions we have:
+
+1. **common_words_to_min_count**:  the ratio of common words count to min lenght of word count of question1 and question2
+
+2. **common_words_to_max_count**:  the ratio of common words count to max lenght of word count of question1 and question2
+
+3. **common_stops_to_min_count**:  the ratio of common stop words count to min lenght of word count of question1 and question2
+
+4. **common_stops_to_max_count**:  the ratio of common stop words count to max lenght of word count of question1 and question2
+
+5. **last_word_equal**: is the last word of question1 equal the last word of question2
+
+6. **first_word_equal**: is the first word of question1 equal the first word of question2
+
+7. **sequence_matcher**: sequence matcher result of question1 and question2 only on words
+
+8. **ecludian_distances**: Ecludian distance between two questions vectors
+
+9. **common_token_to_min_count**: the ratio of common tokens count to min length of token count of quesiton1 and quesiton2
+
+10. **common_token_to_max_count**: the ratio of common tokens count to max length of token count of quesiton1 and quesiton2
+
+11. **token_diff**: the absolute diffrence between length of tokens of question1 and question2
+
+12. **lognest_substring_ratio**: ratio of length of longest common substring to min lenghth of token count of quesiton1 and question2
+
+13. **fuzz_ratio**: Refrence: https://github.com/seatgeek/thefuzz
+
+14. **fuzz_partial_ratio**: Refrence: https://github.com/seatgeek/thefuzz
+
+15. **token_sort_ratio**: Refrence: https://github.com/seatgeek/thefuzz
+
+16. **token_set_ratio**: Refrence: https://github.com/seatgeek/thefuzz
+
+17. **Levenshtein distance** : Levenshtein distance between questions vecotrs
