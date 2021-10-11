@@ -152,3 +152,44 @@ We shall design the following **Features** based on text data of questions we ha
 16. **token_set_ratio**: Refrence: https://github.com/seatgeek/thefuzz
 
 17. **Levenshtein distance** : Levenshtein distance between questions vecotrs
+
+
+### Transformed Features
+
+I have designe some transformed features based on transformation functions which has applied on our data after some analysis and experiments done on our train data and only train data, i have not touched test data at any stage of our project in order to avoid data lekage, for that i have created the following features after analysis:
+
+1. **ct_to_max_c_root**
+2. **ct_to_max_c_sin**
+3. **ct_to_min_c_cos**
+4. **ct_to_min_c_log**
+5. **ct_to_min_c_sin**
+6. **ct_to_min_c_root**
+7. **ct_to_min_c_square**
+8. **cw_to_min_c_root**
+9. **cw_to_min_c_cos**
+10. **cw_to_max_c_root**
+11. **cw_to_max_c_sin**
+12. **cs_to_max_c_log**
+13. **levenshtein_distance_root**
+14. **levenshtein_distance_sin**
+15. **levenshtein_distance_log**
+16. **lognest_substring_ratio_sin**
+17. **lognest_substring_ratio_log**
+18. **fuzzy_ratio_root**
+19. **fuzzy_partial_ratio_root**
+20. **token_sort_ratio_root**
+21. **token_sort_ratio_square**
+22. **token_set_ratio_root**
+23. **token_set_ratio_cube**
+24. **words_share_log_square**
+25. **sequence_matcher_cos**
+26. **sequence_matcher_log**
+27. **sequence_matcher_root**
+28. **sequence_matcher_sin**
+29. **sequence_matcher_square**
+30. **sequence_matcher_cube**
+
+And those 30 new features shall be added to our train & test data which yield till now 68 columns in data.
+
+The correltaion matrix of features:
+![corr](https://user-images.githubusercontent.com/91129320/136836302-f6956f2d-546b-48f7-9e4c-123148793165.png)
