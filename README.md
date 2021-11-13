@@ -192,4 +192,9 @@ I have designe some transformed features based on transformation functions which
 And those 30 new features shall be added to our train & test data which yield till now 68 columns in data.
 
 The correltaion matrix of features:
-![corr](https://user-images.githubusercontent.com/91129320/136836302-f6956f2d-546b-48f7-9e4c-123148793165.png)
+
+![corr](https://user-images.githubusercontent.com/91129320/141656395-cd9fb85f-8953-4838-aba7-873d877a955d.png)
+
+
+### To download data vectors and final Deep Learning model:
+https://mega.nz/folder/4wwixRoC#GDWRliekchhbNKmyuN6BCw   
