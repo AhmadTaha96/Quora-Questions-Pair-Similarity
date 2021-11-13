@@ -193,7 +193,7 @@ And those 30 new features shall be added to our train & test data which yield ti
 
 The correltaion matrix of features:
 
-![corr](https://user-images.githubusercontent.com/91129320/141656395-cd9fb85f-8953-4838-aba7-873d877a955d.png)
+![Webp net-compress-image](https://user-images.githubusercontent.com/91129320/141657053-bb38ea34-c349-41f8-b9b9-0413be5b378d.jpg)
 
 
 ### To download data vectors and final Deep Learning model:
