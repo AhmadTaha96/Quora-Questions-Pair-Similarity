@@ -9,12 +9,15 @@
 
 In this problem we will predict the similarity ratio between two Quora question, that so we shall identify which questions on Quora are duplicates of another previous questions so we don't need to re-publish the question again and this would help to deliver answers to immediately if their question was already been asked.
 
+*****************************
+
 ### objectives and constraints
 
 **Objectives:**
 
 Predict similarity between two questions as a probability using some threshold so that we can determine what question to accept and what question to declare as duplicate.
 
+*****************************
 
 **Constraints:**
 
@@ -26,9 +29,13 @@ Interpretability is not really important here because user care only about the r
 
 Speed & Latency is not really strict here as well, as user would normally ask a question, after couple of minutes the question either published or the results will be delivered from another question [Here in case of both are duplicates].
 
+*****************************
+
 ### ML Problem Formulation
 
 Given two candidate question to be duplicates, we should predict the ratio of similarity and upon that the our program should decide if those questions are duplicate or not.
+
+*****************************
 
 ### Performance metrics
 
@@ -37,6 +44,8 @@ Given two candidate question to be duplicates, we should predict the ratio of si
    ![CodeCogsEqn](https://user-images.githubusercontent.com/91129320/135132512-d8603b24-fdcd-421d-838a-5dee35b5f436.png)
     
 2.   Confusion Matrix ( For Precisoion and Recall ).
+
+*****************************
 
 ### Data Overview
 
@@ -83,6 +92,9 @@ is_duplicate: 0
 The second example here explain that even one word can change the meaning of the question referring that some words are very important.
 
 
+*****************************
+
+
 ### Basic Features
 
 1. question1_freq = Frequency of question1
@@ -114,6 +126,8 @@ The second example here explain that even one word can change the meaning of the
 13. words_share_log = log of words_share feature
 
 14.  words_common_square = square root of words_common feature
+
+*****************************
 
 ### Advanced Features
 
@@ -153,6 +167,7 @@ We shall design the following **Features** based on text data of questions we ha
 
 17. **Levenshtein distance** : Levenshtein distance between questions vecotrs
 
+*****************************
 
 ### Transformed Features
 
@@ -196,5 +211,20 @@ The correltaion matrix of features:
 ![Webp net-compress-image](https://user-images.githubusercontent.com/91129320/141657053-bb38ea34-c349-41f8-b9b9-0413be5b378d.jpg)
 
 
-### To download data vectors and final Deep Learning model:
+*****************************
+
+
+### Further Improvments
+
+1. Try In-Depth more features related to questions statistics in Quora DataBase.
+
+2. Use diffrent Word to Vectors algorithm to process questions and to design vectors out of words and phrases.
+
+3. Try another ML algorithm for example Stacking or RF or another GBDT package like LightGBM or XGBoost.
+
+*****************************
+
+### Data Source
+To download data vectors and final Deep Learning model:
+
 https://mega.nz/folder/4wwixRoC#GDWRliekchhbNKmyuN6BCw   
