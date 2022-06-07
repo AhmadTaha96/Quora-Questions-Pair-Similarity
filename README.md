@@ -224,6 +224,21 @@ The correltaion matrix of features:
 
 *****************************
 
+
+### Project Hierarchy
+
+1. Getting Data
+2. Exploratory Data Analysis
+3. Basic Features Design
+4. Basic Features Analysis
+5. Advanced Features Design
+6. Advanced Features Analysis
+7. Text Features
+9. ML Model
+10. DL Model
+
+*****************************
+
 ### Data Source
 To download data vectors and final Deep Learning model:
 
